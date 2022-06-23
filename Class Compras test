@@ -1,0 +1,12 @@
+public class Compras {
+   
+    public Static String fazerPedido (Integer valor){
+        
+        if(valor > 500){
+            return 'brinde top';
+        }Else {
+            return 'brinde ruim';
+        }
+    }    
+
+}
