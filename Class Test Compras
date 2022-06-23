@@ -1,0 +1,13 @@
+@isTest
+public class ComprasTest {
+    @isTest
+    public Static void pedidoTest(){
+        
+        String valorPedir = Compras.fazerPedido(600);
+        String valorPedir2 = Compras.fazerPedido(0);
+        
+               
+		system.assertEquals('brinde top', valorPedir, 'Deu merda a calabresa é outro valor');
+		system.assertEquals('brinde ruim', valorPedir2, 'Deu merda a calabresa é outro valor');
+    }
+  }
